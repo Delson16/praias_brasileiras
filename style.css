@@ -1,0 +1,114 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #319190;
+    padding: 30px;
+    text-align: center;
+    color: #fffffd;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+}
+main{
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding: 30px;
+}
+section.modulo.paralax h2{
+    color: #000;
+    font-size: 3em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.container h3{
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    width: auto;
+    font-size: 1.5em;
+}
+section.modulo p{
+    text-align: justify;
+    margin-bottom: 0px;
+    padding: 20px;
+    align-items: center;
+    color: #2b2b2b;
+    text-indent: 45px;
+}
+.modulo.content{
+    background-color: #9ed1b7;
+}
+.praia{
+    display: grid;
+    grid-template-columns: auto 40%;
+    gap: 20px;
+    align-items: center;
+}
+.praia img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+section.paralax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative (-50% -50%);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section.modulo.paralax-1{
+    background-image: url(https://images.pexels.com/photos/1712855/pexels-photo-1712855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+section.modulo.paralax-2{
+    background-image: url(https://images.pexels.com/photos/8456274/pexels-photo-8456274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+section.modulo.paralax-3{
+    background-image: url(https://images.pexels.com/photos/247447/pexels-photo-247447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+section.modulo.paralax-4{
+    background-image: url(https://images.pexels.com/photos/4273655/pexels-photo-4273655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+section.modulo.paralax-5{
+    background-image: url(https://images.pexels.com/photos/1268864/pexels-photo-1268864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+footer{
+    background-color: #319190;
+    padding: 60px 10px;
+    color: #ffffe5;
+}
+footer p{
+    margin-left: 30px;
+}
+.title{
+    animation: titulo .5s;
+    animation-duration: 1.5s;;
+}
+@keyframes titulo{
+    from{
+        font-size: 0em;
+        opacity: 100%;
+    }
+    to{
+        font-size: 3em;
+    }
+}
